@@ -8,6 +8,11 @@ a{
     text-decoration: none;
 }
 
+button{
+    outline: none;
+    border: none;
+}
+
 .row{
     /* border: 1px solid blue; */
 }
@@ -149,7 +154,60 @@ footer p{
     color: #ccc;
 }
 
+/* FOOTER STYLE ENDS */
 
-/* MAIN STYLE ENDS */
+/* PORTFOLIO STYLE STARTS */
 
+main .portfolio .projects .project{
+    position: relative;
+    flex-basis: 45%;
+}
+
+main .portfolio .projects .project img{
+    width: 100%;
+    margin: 0;
+    opacity: .80;
+}
+
+main .portfolio .projects .project p{
+    position: absolute;
+    left: 0; right: 0;
+    top: 60%;
+    background: #4aaaa5;
+    color: #ffffff;
+    font-size: 22px;
+    padding: 15px;
+}
+
+/* PORTFOLIO STYLE ENDS */
+
+/* CONTACT STYLE STARTS */
+
+main form label{
+    color: #4aaaa5;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+main form input,
+main form textarea{
+    border: 1px solid #ccc;
+    padding: 5px 10px !important;
+    margin-bottom: 15px !important;
+    font-size: 17px;
+}
+
+main form textarea{
+    resize: none;
+    height: 125px;
+}
+
+main form button{
+    background: #4aaaa5;
+    color: #ffffff;
+    padding: 10px !important;
+    font-weight: 600;
+}
+
+/* PORTFOLIO STYLE ENDS */
 

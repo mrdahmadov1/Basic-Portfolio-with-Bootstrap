@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Portfolio</title>
+    <link rel="stylesheet" href="assets/bootstrap-5.2.0-dist/bootstrap-5.2.0-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <div class="wrapper row">
+        <header class="row">
+            <div class="container mx-auto row align-items-center">
+                <div class="col col-3 logo text-center">
+                    <h2><a href="index.html">Murad</a></h2>
+                </div>
+                <div class="col col-9 menu">
+                    <a href="index.html">About</a>
+                    <a href="portfolio.html">Portfolio</a>
+                    <a href="contact.html">Contact</a>
+                </div>
+            </div>
+        </header>
+        <main class="row">
+            <div class="container row mx-auto justify-content-between">
+                <div class="col col-7 about-me portfolio contact">
+                    <h2>Contact</h2>
+                    <form action="submit" class="row gap-2">
+                        <label class="col col-12" for="name">Full Name</label>
+                        <input class="col col-12" type="text" id="name" placeholder="Murad Ahmadov">
+                        <label class="col col-12" for="email">Email</label>
+                        <input class="col col-12" type="email" id="email" placeholder="mur1dehmedov@gmail.com">
+                        <label class="col col-12" for="message">Message</label>
+                        <textarea class="col col-12" name="message" id="message" placeholder="..."></textarea>
+                        <button class="col col-3">Submit</button>
+                    </form>
+                </div>
+                <div class="col col-3 connect-me">
+                    <h4>Connect with Me</h4>
+                    <div class="row social-links">
+                        <a href="https://github.com/mrdahmadov1">
+                            <img src="assets/images/github.png" alt="Github">
+                        </a>
+                        <a href="https://linkedin.com">
+                            <img src="assets/images/linkedin.png" alt="Linkedin">
+                        </a>
+                        <a href="https://stackoverflow.com">
+                            <img src="assets/images/stackoverflow.png" alt="Stackoverflow">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer class="row">
+            <div class="row container mx-auto text-center">
+                <p>© Copyright 2022 Murad Ahmadov</p>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>
