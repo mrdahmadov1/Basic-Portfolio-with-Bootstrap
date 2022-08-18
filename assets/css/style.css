@@ -1,0 +1,155 @@
+.row, .col{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+.row{
+    /* border: 1px solid blue; */
+}
+
+.col{
+    /* border: 1px solid red; */
+}
+
+body{
+    font-size: 18px;
+}
+
+.wrapper{
+    flex-direction: column;
+    min-height: 100vh;
+    background-image: url('../images/concrete_seamless.png');
+}
+
+.container{
+    width: 960px;
+}
+
+/* HEADER STYLE STARTS */
+
+header{
+    background: #ffffff;
+    border-bottom: 2px solid #ccc;
+    position: fixed;
+    z-index: 3;
+}
+
+header .logo h2{
+    margin: 0;
+    padding: 30px 20px;
+    background: #4aaaa5;
+}
+
+header .logo h2 a{
+    color: #ffffff;
+}
+
+header .menu{
+    text-align: right;
+}
+
+header .menu a{
+    color: #999;
+    padding: 0 30px;
+    border-right: 1px solid #ccc;
+}
+
+header .menu a:nth-child(3){
+    padding-right: 0;
+    border-right: none;
+}
+
+/* HEADER STYLE STARTS */
+
+/* MAIN STYLE STARTS */
+
+main{
+    flex-grow: 1;
+}
+
+main .container{
+    margin-top: 130px;
+    margin-bottom: 30px;
+}
+
+main .about-me{
+    width: 650px;
+    height: fit-content;
+    background: #ffffff;
+    border: 1px solid #ccc;
+    padding: 30px;
+}
+
+main .about-me h2{
+    color: #4aaaa5;
+    padding-bottom: 30px;
+    border-bottom: 2px solid #999;
+    margin-bottom: 20px;
+}
+
+main .about-me img{
+    width: 150px;
+    float: left;
+    margin-top: 7.5px;
+    margin-right: 20px;
+}
+
+main .about-me p{
+    color: #777;
+    line-height: 30px;
+}
+
+main .connect-me{
+    width: 270px;
+    height: fit-content;
+    background: #ffffff;
+    border: 1px solid #ccc;
+    padding: 25px;
+}
+
+main .connect-me h4{
+    color: #4aaaa5;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #999;
+    margin-bottom: 20px;
+}
+
+main .connect-me .social-links{
+    justify-content: space-between;
+}
+
+main .connect-me .social-links a{
+    width: 60px;
+    padding: 0;
+}
+
+main .connect-me .social-links a img{
+    width: 60px;
+}
+
+/* MAIN STYLE ENDS */
+
+/* FOOTER STYLE STARTS */
+
+footer{
+    width: 100%;
+    height: fit-content;
+    background-color: #666;
+    border-top: 5px solid #4aaaa5;
+}
+
+footer p{
+    margin: 25px 0 !important;
+    font-size: 13px;
+    color: #ccc;
+}
+
+
+/* MAIN STYLE ENDS */
+
+
