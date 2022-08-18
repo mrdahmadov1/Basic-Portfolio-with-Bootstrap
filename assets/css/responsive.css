@@ -1,0 +1,38 @@
+@media all and (min-width: 768px) and (max-width:980px) {
+
+    .container {
+        padding: 0 30px !important;
+    }
+
+    main .about-me {
+        margin-bottom: 30px;
+    }
+
+    main .about-me,
+    main .connect-me {
+        width: 100% !important;
+    }
+
+}
+
+@media all and (max-width:768px) {
+
+    header .logo,
+    main .connect-me,
+    main .about-me {
+        width: 100% !important;
+    }
+
+    header .menu {
+        padding: 20px 0;
+    }
+
+    main .container {
+        margin-top: 180px !important;
+        padding: 0 30px !important;
+    }
+
+    main .about-me {
+        margin-bottom: 30px;
+    }
+}
